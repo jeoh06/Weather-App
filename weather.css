@@ -35,6 +35,12 @@ ul {
     padding: 0;
 }
 
+@media only screen and (max-width: 540px) {
+   ul {
+        width: 80.3vw;
+    }
+}
+
 li {
     padding-top: 0.2rem;
     font-size: 1.5rem;
@@ -52,7 +58,7 @@ span {
 }
 
 #title {
-    margin-top: 25vh;
+    margin-top: 40vh;
 }
 
 .navigate {
@@ -69,6 +75,12 @@ span {
     border-radius: 25px;
     font-family: 'dpcomic';
     font-size: 2rem;
+}
+
+@media only screen and (max-width: 540px) {
+    #search_bar {
+        width: 80vw;
+    }
 }
 
 #search_list {
@@ -102,15 +114,37 @@ span {
     font-size: 1.4em;
 }
 
+@media only screen and (max-width: 540px) {
+    .today {
+        width: 80vw;
+        margin-bottom: 0.5rem;
+    }
+}
+
 .this_week {
     display: flex;
     justify-content: space-around;
+}
+
+@media only screen and (max-width: 540px) {
+    .this_week {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 .this_day {
     width: 10rem;
     height: 15rem;
     margin: 0 1rem;
+}
+
+@media only screen and (max-width: 540px) {
+    .this_day {
+        width: 80vw;
+        height: 12rem;
+        margin: 1rem;
+    }
 }
 
 .error {

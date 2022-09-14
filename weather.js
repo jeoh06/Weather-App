@@ -44,7 +44,7 @@ function weekly_forecast(city_name) {
             let weather_data = JSON.parse(xhr.responseText),
                 title = document.querySelector('#title')
             display_forecast(weather_data)
-            title.style.marginTop = 0
+            title.style.marginTop = '5rem';
         } else if (xhr.status !== 200) {
             let div = document.createElement('div');
             div.className = "error";
