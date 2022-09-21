@@ -35,9 +35,15 @@ ul {
     padding: 0;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (min-width: 462px) {
    ul {
-        width: 80.3vw;
+        width: 23.35rem;
+    }
+}
+
+@media only screen and (max-width: 461px) {
+   ul {
+        width: 20rem;
     }
 }
 
@@ -66,7 +72,7 @@ span {
 }
 
 #search_bar {
-    width: 40vw;
+    width: 23.1rem;
     height: 3rem;
     margin: 1rem 0 0 0;
     text-align: center;
@@ -77,9 +83,9 @@ span {
     font-size: 2rem;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 461px) {
     #search_bar {
-        width: 80vw;
+        width: 19.75rem;
     }
 }
 
