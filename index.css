@@ -138,6 +138,7 @@ span {
     .this_week {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 }
 
