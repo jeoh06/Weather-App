@@ -113,14 +113,14 @@ span {
 }
 
 .today {
-    width: 50rem;
+    width: 84vw;
     height: 20rem;
     margin-bottom: 5rem;
     padding-top: 1.5rem;
     font-size: 1.4em;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 760px) {
     .today {
         width: 80vw;
         margin-bottom: 0.5rem;
@@ -128,11 +128,13 @@ span {
 }
 
 .this_week {
+    width: 90vw;
+    margin-bottom: 2rem;
     display: flex;
     justify-content: space-around;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 760px) {
     .this_week {
         flex-direction: column;
         justify-content: center;
@@ -145,7 +147,7 @@ span {
     margin: 0 1rem;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 760px) {
     .this_day {
         width: 80vw;
         height: 12rem;
